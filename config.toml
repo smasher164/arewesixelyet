@@ -3,6 +3,11 @@ languageCode = 'en-us'
 title = 'Are We Sixel Yet?'
 theme = "terminal"
 publishdir = "docs"
+[params]
+  Toc = true
+[markup.tableOfContents]
+  startLevel = 1
+  endLevel = 4
 [languages.en.params.logo]
   logoText = "Are We Sixel Yet?"
   logoHomeLink = "/"

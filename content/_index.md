@@ -1,5 +1,90 @@
 ---
 title: Are We Sixel Yet?
+layout: "single"
 ---
 
-This will give you an answer to that question.
+# Alacritty
+
+---
+
+# GNOME Terminal
+
+---
+
+# guake
+
+---
+
+# kitty
+
+---
+
+# konsole
+
+---
+
+# Terminology
+
+---
+
+# Tilix
+
+---
+
+# xfce-terminal
+
+---
+
+# xterm
+
+---
+
+# Yakuake
+
+---
+
+# iTerm2
+
+---
+
+# Terminal.app
+
+---
+
+# termux
+
+---
+
+# ConEmu
+
+---
+
+# mintty
+
+---
+
+# PuTTY
+
+---
+
+# TeraTerm
+
+---
+
+# Windows Console
+
+---
+
+# Windows Terminal
+
+---
+
+# foot
+
+---
+
+# wezterm
+
+---
+
+# SwiftTerm
