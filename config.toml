@@ -1,0 +1,7 @@
+baseURL = '/'
+languageCode = 'en-us'
+title = 'Are We Sixel Yet?'
+theme = "terminal"
+[languages.en.params.logo]
+  logoText = "Are We Sixel Yet?"
+  logoHomeLink = "/"
