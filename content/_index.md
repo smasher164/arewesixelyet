@@ -5,6 +5,12 @@ layout: "single"
 
 # Alacritty
 
+{{< unsupported >}}
+
+Open issue: https://github.com/alacritty/alacritty/issues/910
+
+Related PR: https://github.com/alacritty/alacritty/pull/4763
+
 ---
 
 # GNOME Terminal
