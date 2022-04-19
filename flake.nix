@@ -1,5 +1,5 @@
 {
-  description = "A flake that sets up the devShell";
+  description = "devShell for arewesixelyet";
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs";
     flake-utils.url = "github:numtide/flake-utils";
