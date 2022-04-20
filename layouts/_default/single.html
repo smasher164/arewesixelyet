@@ -1,6 +1,6 @@
 {{ define "main" }}
-<div style="margin: 0 auto; padding: 0;" class="post">
-  <p style="margin-top: 0;" class="post-title">{{ .Page.Params.Description | markdownify }}</p>
+<div style="margin: 0 auto" class="post">
+  <p class="post-title">{{ .Page.Params.Description | markdownify }}</p>
   {{ if .Params.tags }}
   <span class="post-tags">
     {{ range .Params.tags }}
