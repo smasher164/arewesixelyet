@@ -1,4 +1,5 @@
 ---
+description: "This site lists the support for the SIXEL graphics format across various terminal emulators."
 layout: "single"
 ---
 
