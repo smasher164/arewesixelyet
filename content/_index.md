@@ -187,3 +187,11 @@ From release 20200620-160318-e00b076c: https://github.com/wez/wezterm/releases/t
 {{< supported >}}
 
 From release 1.0.4: https://github.com/migueldeicaza/SwiftTerm/commit/3f7bed2243b32208e0e35bf50240dd37bab3dca2.
+
+---
+
+# suckless st
+
+{{< unsupported >}}
+
+Unofficial patch to add support: https://gist.github.com/saitoha/70e0fdf22e3e8f63ce937c7f7da71809
