@@ -88,9 +88,9 @@ Must be compiled with `--enable-sixel-graphics` and be launched with `-ti vt340`
 
 # Yakuake
 
-{{< unsupported >}}
+{{< supported >}}
 
-Could not find any related issue or sixel references in codebase.
+Depends on SIXEL support in konsole.
 
 ---
 
