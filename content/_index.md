@@ -195,3 +195,12 @@ From release 1.0.4: https://github.com/migueldeicaza/SwiftTerm/commit/3f7bed2243
 {{< unsupported >}}
 
 Unofficial patch to add support: https://gist.github.com/saitoha/70e0fdf22e3e8f63ce937c7f7da71809
+
+---
+
+# sixel-tmux
+
+{{< supported >}}
+
+[sixel-tmux](https://github.com/csdvrx/sixel-tmux) is a tmux fork that intercepts sixel sequences
+and renders them with the best technique available for the terminal.
