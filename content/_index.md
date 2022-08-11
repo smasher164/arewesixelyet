@@ -72,9 +72,7 @@ Which references VTE upstream: https://gitlab.gnome.org/GNOME/vte/-/issues/253
 
 {{< unsupported >}}
 
-Related issue: https://bugzilla.xfce.org/show_bug.cgi?id=15031
-
-Which references VTE upstream: https://gitlab.gnome.org/GNOME/vte/-/issues/253
+Open PR: https://gitlab.xfce.org/apps/xfce4-terminal/-/merge_requests/58
 
 ---
 
