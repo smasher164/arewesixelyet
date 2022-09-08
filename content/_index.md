@@ -113,6 +113,7 @@ Could not find any sixel references in documentation.
 {{< unsupported >}}
 
 Open issue: https://github.com/termux/termux-app/issues/142
+Related PR: https://github.com/termux/termux-app/pull/2973
 
 ---
 
@@ -177,6 +178,14 @@ From version 1.2.0: https://codeberg.org/dnkl/foot/releases/tag/1.2.0.
 {{< supported >}}
 
 From release 20200620-160318-e00b076c: https://github.com/wez/wezterm/releases/tag/20200620-160318-e00b076c.
+
+---
+
+# Contour
+
+{{< supported >}}
+
+Natively Supports Sixel. Sixel is available in any version.
 
 ---
 
