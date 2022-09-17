@@ -113,6 +113,7 @@ Could not find any sixel references in documentation.
 {{< unsupported >}}
 
 Open issue: https://github.com/termux/termux-app/issues/142
+Related PR: https://github.com/termux/termux-app/pull/2973
 
 ---
 
@@ -180,6 +181,32 @@ From release 20200620-160318-e00b076c: https://github.com/wez/wezterm/releases/t
 
 ---
 
+# Contour
+
+{{< supported >}}
+
+Natively Supports Sixel. Sixel is available in any version.
+
+---
+
+# Rlogin
+
+{{< supported >}}
+
+[Rlogin](https://github.com/kmiya-culti/RLogin) Windows
+
+---
+
+# xterm.js
+
+{{< supported >}}
+
+Requires https://github.com/jerch/xterm-addon-image
+
+---
+
+# 
+
 # SwiftTerm
 
 {{< supported >}}
@@ -202,3 +229,27 @@ Unofficial patch to add support: https://gist.github.com/saitoha/70e0fdf22e3e8f6
 
 [sixel-tmux](https://github.com/csdvrx/sixel-tmux) is a tmux fork that intercepts sixel sequences
 and renders them with the best technique available for the terminal.
+
+---
+
+# yaft
+
+{{< supported >}}
+
+Framebuffer terminal
+
+---
+
+# U++
+
+{{< supported >}}
+
+[U++ Terminal Package](https://github.com/ismail-yilmaz/upp-components/tree/master/CtrlLib/Terminal)
+
+---
+
+# Zellij
+
+{{< supported >}}
+
+From release 0.31.0: https://zellij.dev/news/sixel-search-statusbar/
