@@ -114,6 +114,8 @@ Could not find any sixel references in documentation.
 
 Open issue: https://github.com/termux/termux-app/issues/142
 
+Related PR: https://github.com/termux/termux-app/pull/2973
+
 ---
 
 # ConEmu
