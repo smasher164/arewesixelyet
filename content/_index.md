@@ -113,6 +113,7 @@ Could not find any sixel references in documentation.
 {{< unsupported >}}
 
 Open issue: https://github.com/termux/termux-app/issues/142
+
 Related PR: https://github.com/termux/termux-app/pull/2973
 
 ---
@@ -204,8 +205,6 @@ Natively Supports Sixel. Sixel is available in any version.
 Requires https://github.com/jerch/xterm-addon-image
 
 ---
-
-# 
 
 # SwiftTerm
 
