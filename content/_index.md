@@ -89,6 +89,14 @@ From version 2.6.0: https://github.com/mintty/mintty/releases/tag/2.6.0.
 
 ---
 
+# mlterm
+
+{{< supported >}}
+
+Fully supported from version 3.1.9: https://github.com/arakiken/mlterm/blob/deb5aad490f/doc/en/ReleaseNote#L830.
+
+---
+
 # PuTTY
 
 {{< unsupported >}}
