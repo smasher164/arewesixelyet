@@ -145,7 +145,7 @@ to use a current st version with SIXEL support.
 
 {{< supported >}}
 
-From release 1.0.4: https://github.com/migueldeicaza/SwiftTerm/commit/3f7bed2243b32208e0e35bf50240dd37bab3dca2.
+From release 1.0.4: https://github.com/migueldeicaza/SwiftTerm/commit/3f7bed2243b.
 
 ---
 
