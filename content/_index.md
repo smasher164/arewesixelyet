@@ -136,6 +136,9 @@ and renders them with the best technique available for the terminal.
 
 Unofficial patch to add support: https://gist.github.com/saitoha/70e0fdf22e3e8f63ce937c7f7da71809
 
+[st-flexipatch#30](https://github.com/bakkeby/st-flexipatch/issues/30) will provide a simple way
+to use a current st version with SIXEL support.
+
 ---
 
 # SwiftTerm
