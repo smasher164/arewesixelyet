@@ -29,6 +29,14 @@ Natively Supports Sixel. Sixel is available in any version.
 
 ---
 
+# ctx terminal
+
+{{< supported >}}
+
+From commit [1c51989b16e](https://ctx.graphics/commit/1c51989b16edf01f5debd21c7453d4de4a8d27f3.html) onwards.
+
+---
+
 # foot
 
 {{< supported >}}
