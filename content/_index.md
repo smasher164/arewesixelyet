@@ -50,6 +50,8 @@ From commit [1c51989b16e](https://ctx.graphics/commit/1c51989b16edf01f5debd21c74
 
 Open issue: https://github.com/elementary/terminal/issues/717
 
+Which references VTE upstream: https://gitlab.gnome.org/GNOME/vte/-/issues/253
+
 ---
 
 # foot
