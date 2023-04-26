@@ -202,6 +202,12 @@ Which references VTE upstream: https://gitlab.gnome.org/GNOME/vte/-/issues/253
 
 ---
 
+# URxvt
+
+{{< unsupported >}}
+
+Currently there is only an old fork (from 2018) that support sixel: https://github.com/saitoha/rxvt-unicode-sixel
+
 # U++
 
 {{< supported >}}
