@@ -1,5 +1,4 @@
 ---
-description: "This site lists the support for the SIXEL graphics format across various terminal emulators. The SIXEL format allows the terminal to display bitmap graphics. See __https://en.wikipedia.org/wiki/Sixel__ for more information."
 layout: "single"
 ---
 

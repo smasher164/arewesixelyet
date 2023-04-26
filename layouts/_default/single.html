@@ -1,6 +1,14 @@
 {{ define "main" }}
 <div style="margin: 0 auto" class="post">
-  <p class="post-title">{{ .Page.Params.Description | markdownify }}</p>
+  <style>
+    .post-title {
+      white-space: pre-line;
+    }
+  </style>
+  <p class="post-title">This site lists the support for the SIXEL graphics format across various terminal emulators. The SIXEL format allows the terminal to display bitmap graphics. See <strong><a href="https://en.wikipedia.org/wiki/Sixel">https://en.wikipedia.org/wiki/Sixel</a></strong> for more information.
+
+    SIXEL support for a terminal can be determined by running the <strong><a href="https://github.com/hackerb9/lsix">lsix</a></strong> command. If SIXEL is not supported, then the message <em>"Error: Your terminal does not report having sixel graphics support."</em> is displayed.
+  </p>
   {{ if .Params.tags }}
   <span class="post-tags">
     {{ range .Params.tags }}
