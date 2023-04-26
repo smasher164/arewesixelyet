@@ -45,6 +45,14 @@ From commit [1c51989b16e](https://ctx.graphics/commit/1c51989b16edf01f5debd21c74
 
 ---
 
+# Elementary Terminal
+
+{{< unsupported >}}
+
+Open issue: https://github.com/elementary/terminal/issues/717
+
+---
+
 # foot
 
 {{< supported >}}
