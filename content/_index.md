@@ -44,6 +44,14 @@ From commit [1c51989b16e](https://ctx.graphics/commit/1c51989b16edf01f5debd21c74
 
 ---
 
+# DomTerm
+
+{{< supported >}}
+
+From version 2.0 (September 2019): https://domterm.org/Features.html.
+
+---
+
 # Elementary Terminal
 
 {{< unsupported >}}
