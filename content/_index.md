@@ -225,6 +225,8 @@ Which references VTE upstream: https://gitlab.gnome.org/GNOME/vte/-/issues/253
 
 Currently there is only an old fork (from 2018) that support sixel: https://github.com/saitoha/rxvt-unicode-sixel
 
+Exoterm is a more up-to-date fork with sixel support, among other things: https://github.com/tomas/exoterm
+
 # U++
 
 {{< supported >}}
