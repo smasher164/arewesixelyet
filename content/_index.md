@@ -116,7 +116,7 @@ Support landed in version 22.04: https://bugs.kde.org/show_bug.cgi?id=391781.
 
 # LaTerminal
 
-{{< supported> }}
+{{< supported >}}
 
 Supported since September 2022, uses the SwiftTerm engine.
 
