@@ -252,8 +252,6 @@ From release 1.79: https://code.visualstudio.com/updates/v1_79#_images-in-the-te
 
 ---
 
----
-
 # wezterm
 
 {{< supported >}}
