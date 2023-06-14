@@ -240,6 +240,16 @@ Exoterm is a more up-to-date fork with sixel support, among other things: https:
 
 [U++ Terminal Package](https://github.com/ismail-yilmaz/upp-components/tree/master/CtrlLib/Terminal)
 
+# Visual Studio Code
+
+{{< supported >}}
+
+Must be enabled with `"terminal.integrated.experimentalImageSupport": true`.
+
+Uses xterm.js with xterm-addon-image, related PR: https://github.com/microsoft/vscode/pull/182442
+
+From release 1.79: https://code.visualstudio.com/updates/v1_79#_images-in-the-terminal
+
 ---
 
 # wezterm
