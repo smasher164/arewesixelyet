@@ -234,11 +234,15 @@ There is an old fork (from 2018) that supports sixel: https://github.com/saitoha
 
 Exoterm is a more up-to-date fork with sixel support, among other things: https://github.com/tomas/exoterm
 
+---
+
 # U++
 
 {{< supported >}}
 
 [U++ Terminal Package](https://github.com/ismail-yilmaz/upp-components/tree/master/CtrlLib/Terminal)
+
+---
 
 # Visual Studio Code
 
@@ -288,7 +292,7 @@ Open PR: https://gitlab.xfce.org/apps/xfce4-terminal/-/merge_requests/58
 
 {{< supported >}}
 
-Must be compiled with `--enable-sixel-graphics` and be launched with `-ti vt340`.
+Enabled by default since [patch #359](https://invisible-island.net/xterm/xterm.log.html#xterm_359).
 
 ---
 
