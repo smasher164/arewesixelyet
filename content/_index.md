@@ -137,6 +137,13 @@ Fully supported from version 3.1.9: https://github.com/arakiken/mlterm/blob/deb5
 
 ---
 
+# MobaXterm
+
+{{< unsupported >}}
+
+Could not find any sixel references in release notes.
+
+---
 # PuTTY
 
 {{< unsupported >}}
