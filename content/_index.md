@@ -289,9 +289,9 @@ Open issue: https://github.com/microsoft/terminal/issues/448.
 
 # xfce-terminal
 
-{{< unsupported >}}
+{{< supported >}}
 
-Open PR: https://gitlab.xfce.org/apps/xfce4-terminal/-/merge_requests/58
+From commit [493a7a5](https://gitlab.xfce.org/apps/xfce4-terminal/-/commit/493a7a54b437df9419847b29fe94eae671816c09) onwards.
 
 ---
 
