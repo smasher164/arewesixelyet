@@ -128,6 +128,14 @@ Support landed in version 22.04: https://bugs.kde.org/show_bug.cgi?id=391781.
 
 Supported since September 2022, uses the SwiftTerm engine.
 
+---
+
+# MacTerm
+
+{{< supported >}}
+
+Supported since version 20171210: https://www.macterm.net/updates/changelog-2017.html.
+
 --- 
 # mintty
 
