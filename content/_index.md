@@ -44,6 +44,14 @@ From commit [1c51989b16e](https://ctx.graphics/commit/1c51989b16edf01f5debd21c74
 
 ---
 
+# Darktile
+
+{{< supported >}}
+
+From commit [978d506](https://github.com/liamg/darktile/commit/978d5067f6e4cd428953602e492c9ca17ad8458b) onwards.
+
+---
+
 # DomTerm
 
 {{< supported >}}
