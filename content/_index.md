@@ -44,6 +44,14 @@ From commit [1c51989b16e](https://ctx.graphics/commit/1c51989b16edf01f5debd21c74
 
 ---
 
+# Darktile
+
+{{< supported >}}
+
+From commit [978d506](https://github.com/liamg/darktile/commit/978d5067f6e4cd428953602e492c9ca17ad8458b) onwards.
+
+---
+
 # DomTerm
 
 {{< supported >}}
@@ -120,6 +128,14 @@ Support landed in version 22.04: https://bugs.kde.org/show_bug.cgi?id=391781.
 
 Supported since September 2022, uses the SwiftTerm engine.
 
+---
+
+# MacTerm
+
+{{< supported >}}
+
+Supported since version 20171210: https://www.macterm.net/updates/changelog-2017.html.
+
 --- 
 # mintty
 
@@ -188,6 +204,14 @@ From release 1.0.4: https://github.com/migueldeicaza/SwiftTerm/commit/3f7bed2243
 
 ---
 
+# SyncTERM
+
+{{< supported >}}
+
+From release 1.1.
+
+---
+
 # TeraTerm
 
 {{< unsupported >}}
@@ -230,6 +254,14 @@ Related PR: https://github.com/termux/termux-app/pull/2973
 Related issue: https://github.com/gnunn1/tilix/issues/1631
 
 Which references VTE upstream: https://gitlab.gnome.org/GNOME/vte/-/issues/253
+
+---
+
+# toyterm
+
+{{< supported >}}
+
+From commit [692ee23](https://github.com/algon-320/toyterm/commit/692ee23c780945e76a1610cc45950df2e259c07a) onwards.
 
 ---
 
@@ -289,9 +321,9 @@ Open issue: https://github.com/microsoft/terminal/issues/448.
 
 # xfce-terminal
 
-{{< unsupported >}}
+{{< supported >}}
 
-Open PR: https://gitlab.xfce.org/apps/xfce4-terminal/-/merge_requests/58
+From commit [493a7a5](https://gitlab.xfce.org/apps/xfce4-terminal/-/commit/493a7a54b437df9419847b29fe94eae671816c09) onwards.
 
 ---
 
