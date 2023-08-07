@@ -241,6 +241,14 @@ Which references VTE upstream: https://gitlab.gnome.org/GNOME/vte/-/issues/253
 
 ---
 
+# toyterm
+
+{{< supported >}}
+
+From commit [692ee23](https://github.com/algon-320/toyterm/commit/692ee23c780945e76a1610cc45950df2e259c07a) onwards.
+
+---
+
 # URxvt
 
 {{< unsupported >}}
