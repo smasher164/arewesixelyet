@@ -183,6 +183,8 @@ Could not find any sixel references in source code, mailing list archives, or re
 [sixel-tmux](https://github.com/csdvrx/sixel-tmux) is a tmux fork that intercepts sixel sequences
 and renders them with the best technique available for the terminal.
 
+**Note**: [tmux](/#tmux) now has official support for SIXEL.
+
 ---
 
 # suckless st
@@ -254,6 +256,16 @@ Related PR: https://github.com/termux/termux-app/pull/2973
 Related issue: https://github.com/gnunn1/tilix/issues/1631
 
 Which references VTE upstream: https://gitlab.gnome.org/GNOME/vte/-/issues/253
+
+---
+
+# tmux
+
+{{< supported >}}
+
+From commit [dfbc6b1](https://github.com/tmux/tmux/commit/dfbc6b1888c110cf0ade66f20188c57757ee1298) onwards.
+
+tmux officially supports sixel when compiled with `./configure --enable-sixel`.
 
 ---
 
