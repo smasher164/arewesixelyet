@@ -60,6 +60,14 @@ From version 2.0 (September 2019): https://domterm.org/Features.html.
 
 ---
 
+# Eat
+
+{{< supported >}}
+
+From [version 0.9](https://codeberg.org/akib/emacs-eat/commit/38ba9a99b0983ecce4be4c2b7d69632d0666648e) onwards.
+
+---
+
 # Elementary Terminal
 
 {{< unsupported >}}
