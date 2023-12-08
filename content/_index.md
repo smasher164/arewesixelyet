@@ -384,3 +384,9 @@ Depends on SIXEL support in konsole.
 {{< supported >}}
 
 From release 0.31.0: https://zellij.dev/news/sixel-search-statusbar/
+
+# Rio terminal
+
+{{< unsupported >}}
+
+Open issue: https://github.com/raphamorim/rio/issues/38
