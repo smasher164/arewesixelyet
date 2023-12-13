@@ -176,6 +176,14 @@ Could not find any sixel references in source code, mailing list archives, or re
 
 ---
 
+# Rio terminal
+
+{{< unsupported >}}
+
+Open issue: https://github.com/raphamorim/rio/issues/38
+
+---
+
 # Rlogin
 
 {{< supported >}}
@@ -384,9 +392,3 @@ Depends on SIXEL support in konsole.
 {{< supported >}}
 
 From release 0.31.0: https://zellij.dev/news/sixel-search-statusbar/
-
-# Rio terminal
-
-{{< unsupported >}}
-
-Open issue: https://github.com/raphamorim/rio/issues/38
