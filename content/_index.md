@@ -176,6 +176,14 @@ Could not find any sixel references in source code, mailing list archives, or re
 
 ---
 
+# Rio terminal
+
+{{< unsupported >}}
+
+Open issue: https://github.com/raphamorim/rio/issues/38
+
+---
+
 # Rlogin
 
 {{< supported >}}
