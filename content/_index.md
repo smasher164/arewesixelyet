@@ -20,6 +20,14 @@ From version 0.13.0: https://gitlab.gnome.org/raggesilver/blackbox/-/tags/v0.13.
 
 ---
 
+# Bobcat
+
+{{< supported >}}
+
+[Natively supports sixel](https://github.com/ismail-yilmaz/Bobcat#Features).
+
+---
+
 # ConEmu
 
 {{< unsupported >}}
