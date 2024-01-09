@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "style.css",
-	"sourceRoot": "/home/akhil/Projects/arewesixelyet",
+	"sourceRoot": "/home/maldoror/Geliştirme/awsy",
 	"sources": [
 		"css/base.scss",
 		"themes/terminal/assets/css/variables.scss",
