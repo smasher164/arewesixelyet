@@ -323,11 +323,11 @@ Exoterm is a more up-to-date fork with sixel support, among other things: https:
 
 {{< supported >}}
 
-Must be enabled with `"terminal.integrated.experimentalImageSupport": true`.
+Must be enabled with `"terminal.integrated.enableImages": true`.
 
 Uses xterm.js with xterm-addon-image, related PR: https://github.com/microsoft/vscode/pull/182442
 
-From release 1.79: https://code.visualstudio.com/updates/v1_79#_images-in-the-terminal
+From release 1.80: https://code.visualstudio.com/updates/v1_80#_image-support
 
 ---
 
