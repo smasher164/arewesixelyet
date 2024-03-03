@@ -14,9 +14,9 @@ Related PR: https://github.com/alacritty/alacritty/pull/4763
 
 # Black Box
 
-{{< supported >}}
+{{< unsupported >}}
 
-From version 0.13.0: https://gitlab.gnome.org/raggesilver/blackbox/-/tags/v0.13.0.
+Relies on upstream VTE support: https://gitlab.gnome.org/GNOME/vte/-/issues/253
 
 ---
 
