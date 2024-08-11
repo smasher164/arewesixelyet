@@ -351,9 +351,8 @@ Could not find any sixel references in source code.
 
 # Windows Terminal
 
-{{< unsupported >}}
-
-Open issue: https://github.com/microsoft/terminal/issues/448.
+{{< supported >}}
+Support added with commit [450eec4] (https://github.com/microsoft/terminal/commit/450eec48de252a3a8d270bade847755ecbeb5a75)
 
 ---
 
