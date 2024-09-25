@@ -271,7 +271,7 @@ Open issue: https://github.com/termux/termux-app/issues/142
 
 Related PR: https://github.com/termux/termux-app/pull/2973
 
-There is a fork of termux which supports it: https://github.com/KitsunedFox/termux-monet
+There is a fork of termux which supports it: https://github.com/Termux-Monet/termux-monet
 
 ---
 
