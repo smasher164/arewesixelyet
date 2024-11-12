@@ -186,9 +186,9 @@ Could not find any sixel references in source code, mailing list archives, or re
 
 # Rio terminal
 
-{{< unsupported >}}
+{{< supported >}}
 
-Open issue: https://github.com/raphamorim/rio/issues/38
+From release v0.1.12: https://github.com/raphamorim/rio/releases/tag/v0.1.12
 
 ---
 
