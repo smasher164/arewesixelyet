@@ -343,17 +343,17 @@ From release 20200620-160318-e00b076c: https://github.com/wez/wezterm/releases/t
 
 # Windows Console
 
-{{< unsupported >}}
+{{< supported >}}
 
-Could not find any sixel references in source code.
+Supported since the release of Windows Terminal v1.22
 
 ---
 
 # Windows Terminal
 
-{{< unsupported >}}
+{{< supported >}}
 
-Open issue: https://github.com/microsoft/terminal/issues/448.
+Supported since [v1.22](https://github.com/microsoft/terminal/releases/tag/v1.22.2362.0).
 
 ---
 
