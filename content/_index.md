@@ -176,6 +176,16 @@ Fully supported from version 3.1.9: https://github.com/arakiken/mlterm/blob/deb5
 Could not find any sixel references in release notes.
 
 ---
+
+# Ptyxis
+
+{{< unsupported >}}
+
+Related issue: https://gitlab.gnome.org/chergert/ptyxis/-/issues/122
+
+Which references VTE upstream: https://gitlab.gnome.org/GNOME/vte/-/issues/253
+
+---
 # PuTTY
 
 {{< unsupported >}}
