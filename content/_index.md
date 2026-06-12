@@ -6,9 +6,8 @@ layout: "single"
 
 {{< unsupported >}}
 
-Open issue: https://github.com/alacritty/alacritty/issues/910
-
-Related PR: https://github.com/alacritty/alacritty/pull/4763
+Offically Rejected: https://github.com/alacritty/alacritty/pull/4763#issuecomment-2137836143
+Patched fork: https://github.com/ayosec/alacritty
 
 ---
 
@@ -91,6 +90,13 @@ Which references VTE upstream: https://gitlab.gnome.org/GNOME/vte/-/issues/253
 {{< supported >}}
 
 From version 1.2.0: https://codeberg.org/dnkl/foot/releases/tag/1.2.0.
+---
+
+# Ghostty
+
+{{< unsupported >}}
+
+From version x.y.z https://github.com/ghostty-org/ghostty/discussions/2496#discussioncomment-11353475
 
 ---
 
@@ -176,6 +182,15 @@ Fully supported from version 3.1.9: https://github.com/arakiken/mlterm/blob/deb5
 Could not find any sixel references in release notes.
 
 ---
+
+# Neovim
+
+{{< unsupported >}}
+
+Open Issue: https://github.com/neovim/neovim/issues/4500
+
+---
+
 # PuTTY
 
 {{< unsupported >}}
@@ -186,9 +201,9 @@ Could not find any sixel references in source code, mailing list archives, or re
 
 # Rio terminal
 
-{{< unsupported >}}
+{{< supported >}}
 
-Open issue: https://github.com/raphamorim/rio/issues/38
+Suported since v0.4.5: https://github.com/raphamorim/rio/issues/38
 
 ---
 
@@ -263,6 +278,12 @@ which allows one to render images.
 
 ---
 
+# termius
+
+{{< unsupported >}}
+
+Closed Issue: https://github.com/Eugeny/tabby/issues/1250
+
 # termux
 
 {{< unsupported >}}
@@ -300,6 +321,14 @@ tmux officially supports sixel when compiled with `./configure --enable-sixel`.
 {{< supported >}}
 
 From commit [692ee23](https://github.com/algon-320/toyterm/commit/692ee23c780945e76a1610cc45950df2e259c07a) onwards.
+
+---
+
+# ttyd
+
+{{< supported >}}
+
+Supported with the flag `-t enableSixel=true` since v1.7.3 https://github.com/tsl0922/ttyd/issues/1065#issuecomment-1408224020
 
 ---
 
@@ -351,17 +380,17 @@ Could not find any sixel references in source code.
 
 # Windows Terminal
 
-{{< unsupported >}}
+{{< supported >}}
 
-Open issue: https://github.com/microsoft/terminal/issues/448.
+As of version v1.22.10352.0: https://github.com/smasher164/arewesixelyet/issues/33#issuecomment-2638710744
 
 ---
 
 # xfce-terminal
 
-{{< supported >}}
+{{< unsupported >}}
 
-From commit [493a7a5](https://gitlab.xfce.org/apps/xfce4-terminal/-/commit/493a7a54b437df9419847b29fe94eae671816c09) onwards.
+Relies on upstream VTE support: https://gitlab.gnome.org/GNOME/vte/-/issues/253
 
 ---
 
@@ -394,6 +423,14 @@ Framebuffer terminal
 {{< supported >}}
 
 Depends on SIXEL support in konsole.
+
+---
+
+# Warp
+
+{{< unsupported >}}
+
+Kitty was chosen instead: https://github.com/warpdotdev/warp/issues/26#issuecomment-2777167809 
 
 ---
 
