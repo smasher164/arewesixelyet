@@ -23,7 +23,37 @@
       <h2>
         {{ (.Params.TocTitle | default .Site.Params.TocTitle) | default "Table of Contents" }}
       </h2>
-      {{ .TableOfContents }}
+      <!--
+        Hand-rolled replacement for .TableOfContents: each entry shows its status
+        icon in place of the list hyphen. The content is split at each h1 and the
+        first "Status:" line of a section determines its icon.
+      -->
+      <nav id="TableOfContents">
+        <ul>
+          {{ $sections := split .Content "<h1 id=\"" }}
+          {{ range $i, $s := $sections }}
+            {{ if gt $i 0 }}
+              {{ $id := index (findRE `^[^"]+` $s 1) 0 }}
+              {{ $m := index (findRE `">[^<]*</h1>` $s 1) 0 }}
+              {{ $title := $m | strings.TrimPrefix `">` | strings.TrimSuffix "</h1>" }}
+              {{ $status := "" }}
+              {{ with findRE `Status: (Supported|Unsupported|Needs Patch)` $s 1 }}
+                {{ $status = index . 0 }}
+              {{ end }}
+              <li>
+                {{ if eq $status "Status: Supported" }}
+                  <img class="toc-status supported-svg" aria-label="supported" src="/supported.svg"/>
+                {{ else if eq $status "Status: Unsupported" }}
+                  <img class="toc-status unsupported-svg" aria-label="unsupported" src="/unsupported.svg"/>
+                {{ else if eq $status "Status: Needs Patch" }}
+                  <img class="toc-status alert-svg" aria-label="needs-patch" src="/alert.svg"/>
+                {{ end }}
+                <a href="#{{ $id }}">{{ $title }}</a>
+              </li>
+            {{ end }}
+          {{ end }}
+        </ul>
+      </nav>
     </div>
   {{ end }}
 
