@@ -94,6 +94,14 @@ From version 1.2.0: https://codeberg.org/dnkl/foot/releases/tag/1.2.0.
 
 ---
 
+# Ghostty
+
+{{< unsupported >}}
+
+See reasoning here: https://github.com/ghostty-org/ghostty/discussions/2496#discussioncomment-11353475
+
+---
+
 # GNOME Terminal
 
 {{< unsupported >}}
