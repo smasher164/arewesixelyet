@@ -10,6 +10,7 @@
       "aarch64-linux"
       "i686-linux"
       "x86_64-linux"
+      "aarch64-darwin"
     ]; in
     flake-utils.lib.eachSystem supportedSystems (system:
       let

@@ -8,13 +8,17 @@ layout: "single"
 
 Open issue: https://github.com/alacritty/alacritty/issues/910
 
-Related PR: https://github.com/alacritty/alacritty/pull/4763
+SIXEL support was [rejected](https://github.com/alacritty/alacritty/pull/4763#issuecomment-2137836143) by the maintainers.
+
+There is a maintained fork with SIXEL support: https://github.com/ayosec/alacritty
 
 ---
 
 # Black Box
 
-{{< unsupported >}}
+{{< alert >}}
+
+Has an experimental "Sixel Support" switch since [version 0.13.0](https://gitlab.gnome.org/raggesilver/blackbox/-/blob/main/CHANGELOG.md), but the switch only works when VTE is built with SIXEL support.
 
 Relies on upstream VTE support: https://gitlab.gnome.org/GNOME/vte/-/issues/253
 
@@ -24,7 +28,7 @@ Relies on upstream VTE support: https://gitlab.gnome.org/GNOME/vte/-/issues/253
 
 {{< supported >}}
 
-[Natively supports sixel](https://github.com/ismail-yilmaz/Bobcat#Features).
+[Natively supports SIXEL](https://github.com/ismail-yilmaz/Bobcat#Features).
 
 ---
 
@@ -40,7 +44,7 @@ Open issue: https://github.com/Maximus5/ConEmu/issues/807
 
 {{< supported >}}
 
-Natively Supports Sixel. Sixel is available in any version.
+Natively supports SIXEL. SIXEL is available in any version.
 
 ---
 
@@ -80,7 +84,7 @@ From [version 0.9](https://codeberg.org/akib/emacs-eat/commit/38ba9a99b0983ecce4
 
 {{< unsupported >}}
 
-Open issue: https://github.com/elementary/terminal/issues/717
+Issue closed as out of scope: https://github.com/elementary/terminal/issues/717
 
 Which references VTE upstream: https://gitlab.gnome.org/GNOME/vte/-/issues/253
 
@@ -100,6 +104,8 @@ From version 1.2.0: https://codeberg.org/dnkl/foot/releases/tag/1.2.0.
 
 See reasoning here: https://github.com/ghostty-org/ghostty/discussions/2496#discussioncomment-11353475
 
+Ghostty instead provides the **Kitty graphics protocol**: https://sw.kovidgoyal.net/kitty/graphics-protocol/
+
 ---
 
 # GNOME Terminal
@@ -108,13 +114,15 @@ See reasoning here: https://github.com/ghostty-org/ghostty/discussions/2496#disc
 
 Open issue: https://gitlab.gnome.org/GNOME/vte/-/issues/253
 
+GNOME Terminal has an `enable-sixel` profile setting since version 3.38, but it does nothing because VTE removes SIXEL support from [every stable release](https://gitlab.gnome.org/GNOME/vte/-/commit/3bd4f9a3).
+
 ---
 
 # guake
 
 {{< unsupported >}}
 
-Open issue: https://github.com/Guake/guake/issues/1806
+Related PR: https://github.com/Guake/guake/pull/2157
 
 Which references VTE upstream: https://gitlab.gnome.org/GNOME/vte/-/issues/253
 
@@ -154,6 +162,14 @@ Supported since September 2022, uses the SwiftTerm engine.
 
 ---
 
+# libtsm
+
+{{< unsupported >}}
+
+Could not find any SIXEL references in [libtsm](https://github.com/kmscon/libtsm) or its forks. DCS sequences are parsed but not rendered.
+
+---
+
 # MacTerm
 
 {{< supported >}}
@@ -181,7 +197,25 @@ Fully supported from version 3.1.9: https://github.com/arakiken/mlterm/blob/deb5
 
 {{< unsupported >}}
 
-Could not find any sixel references in release notes.
+Could not find any SIXEL references in release notes through version 26.4 (June 2026): https://mobaxterm.mobatek.net/download-home-edition.html
+
+---
+
+# mosh
+
+{{< unsupported >}}
+
+Issue closed as not planned: https://github.com/mobile-shell/mosh/issues/1081
+
+---
+
+# Neovim
+
+{{< unsupported >}}
+
+Open issue: https://github.com/neovim/neovim/issues/4500
+
+The `vim.ui.img` API added in version 0.12 implements only the Kitty graphics protocol. SIXEL is available through third-party plugins.
 
 ---
 
@@ -198,7 +232,7 @@ Which references VTE upstream: https://gitlab.gnome.org/GNOME/vte/-/issues/253
 
 {{< unsupported >}}
 
-Could not find any sixel references in source code, mailing list archives, or release notes.
+Could not find any SIXEL references in source code, mailing list archives, or the [change log](https://www.chiark.greenend.org.uk/~sgtatham/putty/changes.html) through version 0.85 (August 2026).
 
 ---
 
@@ -206,7 +240,9 @@ Could not find any sixel references in source code, mailing list archives, or re
 
 {{< supported >}}
 
-From version 0.1.12: https://rioterm.com/docs/releases#0112
+From version 0.1.12: https://rioterm.com/changelog#0112.
+
+SIXEL was broken across the 0.4.x series and restored in [version 0.4.12](https://github.com/raphamorim/rio/releases/tag/v0.4.12).
 
 ---
 
@@ -222,7 +258,7 @@ From version 0.1.12: https://rioterm.com/docs/releases#0112
 
 {{< supported >}}
 
-[sixel-tmux](https://github.com/csdvrx/sixel-tmux) is a tmux fork that intercepts sixel sequences
+[sixel-tmux](https://github.com/csdvrx/sixel-tmux) is a tmux fork that intercepts SIXEL sequences
 and renders them with the best technique available for the terminal.
 
 **Note**: [tmux](/#tmux) now has official support for SIXEL.
@@ -237,6 +273,8 @@ Unofficial patch to add support: https://gist.github.com/saitoha/70e0fdf22e3e8f6
 
 [st-flexipatch#30](https://github.com/bakkeby/st-flexipatch/issues/30) will provide a simple way
 to use a current st version with SIXEL support.
+
+[st-sx](https://github.com/veltza/st-sx) is a maintained st fork with SIXEL support built in.
 
 ---
 
@@ -260,7 +298,7 @@ From release 1.1.
 
 {{< unsupported >}}
 
-Mentioned as feature "which may be supported in very far future" in https://ttssh2.osdn.jp/manual/4/en/about/requests.html.
+Mentioned as feature "which may be supported in very far future" in https://teratermproject.github.io/manual/5/en/about/requests.html.
 
 ---
 
@@ -268,7 +306,7 @@ Mentioned as feature "which may be supported in very far future" in https://ttss
 
 {{< unsupported >}}
 
-Could not find any sixel references in documentation.
+Could not find any SIXEL references in documentation.
 
 ---
 
@@ -309,7 +347,7 @@ Which references VTE upstream: https://gitlab.gnome.org/GNOME/vte/-/issues/253
 
 From commit [dfbc6b1](https://github.com/tmux/tmux/commit/dfbc6b1888c110cf0ade66f20188c57757ee1298) onwards.
 
-tmux officially supports sixel when compiled with `./configure --enable-sixel`.
+tmux officially supports SIXEL when compiled with `./configure --enable-sixel`.
 
 ---
 
@@ -321,13 +359,23 @@ From commit [692ee23](https://github.com/algon-320/toyterm/commit/692ee23c780945
 
 ---
 
+# ttyd
+
+{{< supported >}}
+
+From version 1.7.2: https://github.com/tsl0922/ttyd/releases/tag/1.7.2.
+
+Since [version 1.7.3](https://github.com/tsl0922/ttyd/releases/tag/1.7.3) it must be enabled with `-t enableSixel=true`.
+
+---
+
 # URxvt
 
 {{< unsupported >}}
 
-There is an old fork (from 2018) that supports sixel: https://github.com/saitoha/rxvt-unicode-sixel
+There is an old fork (from 2018) that supports SIXEL: https://github.com/saitoha/rxvt-unicode-sixel
 
-Exoterm is a more up-to-date fork with sixel support, among other things: https://github.com/tomas/exoterm
+Exoterm is a more up-to-date fork with SIXEL support, among other things: https://github.com/tomas/exoterm
 
 ---
 
@@ -355,7 +403,9 @@ From release 1.80: https://code.visualstudio.com/updates/v1_80#_image-support
 
 {{< unsupported >}}
 
-Issue: https://github.com/warpdotdev/Warp/issues/26
+Issue closed as not planned: https://github.com/warpdotdev/Warp/issues/4282
+
+Warp provides the iTerm2 and Kitty graphics protocols instead.
 
 ---
 
@@ -371,7 +421,9 @@ From release 20200620-160318-e00b076c: https://github.com/wez/wezterm/releases/t
 
 {{< unsupported >}}
 
-Could not find any sixel references in source code.
+SIXEL support was [merged into conhost](https://github.com/microsoft/terminal/pull/17421), but it only ships in the OpenConsole bundled with Windows Terminal.
+
+The conhost.exe built into Windows has it only in [Insider Canary builds](https://blogs.windows.com/windows-insider/2026/03/30/announcing-windows-11-insider-preview-build-for-canary-channel-29558-1000/) so far.
 
 ---
 
@@ -385,9 +437,11 @@ From version 1.22.10352.0: https://github.com/microsoft/terminal/releases/tag/v1
 
 # xfce-terminal
 
-{{< supported >}}
+{{< alert >}}
 
-From commit [493a7a5](https://gitlab.xfce.org/apps/xfce4-terminal/-/commit/493a7a54b437df9419847b29fe94eae671816c09) onwards.
+Added a SIXEL option in [version 1.1.0](https://gitlab.xfce.org/apps/xfce4-terminal/-/commit/493a7a54b437df9419847b29fe94eae671816c09), but the option only appears when VTE is built with SIXEL support.
+
+Relies on upstream VTE support: https://gitlab.gnome.org/GNOME/vte/-/issues/253
 
 ---
 

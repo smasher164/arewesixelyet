@@ -187,16 +187,21 @@
     <li><a href="#eat">Eat</a></li>
     <li><a href="#elementary-terminal">Elementary Terminal</a></li>
     <li><a href="#foot">foot</a></li>
+    <li><a href="#ghostty">Ghostty</a></li>
     <li><a href="#gnome-terminal">GNOME Terminal</a></li>
     <li><a href="#guake">guake</a></li>
     <li><a href="#iterm2">iTerm2</a></li>
     <li><a href="#kitty">kitty</a></li>
     <li><a href="#konsole">konsole</a></li>
     <li><a href="#laterminal">LaTerminal</a></li>
+    <li><a href="#libtsm">libtsm</a></li>
     <li><a href="#macterm">MacTerm</a></li>
     <li><a href="#mintty">mintty</a></li>
     <li><a href="#mlterm">mlterm</a></li>
     <li><a href="#mobaxterm">MobaXterm</a></li>
+    <li><a href="#mosh">mosh</a></li>
+    <li><a href="#neovim">Neovim</a></li>
+    <li><a href="#ptyxis">Ptyxis</a></li>
     <li><a href="#putty">PuTTY</a></li>
     <li><a href="#rio-terminal">Rio terminal</a></li>
     <li><a href="#rlogin">Rlogin</a></li>
@@ -211,9 +216,11 @@
     <li><a href="#tilix">Tilix</a></li>
     <li><a href="#tmux">tmux</a></li>
     <li><a href="#toyterm">toyterm</a></li>
+    <li><a href="#ttyd">ttyd</a></li>
     <li><a href="#urxvt">URxvt</a></li>
     <li><a href="#u">U++</a></li>
     <li><a href="#visual-studio-code">Visual Studio Code</a></li>
+    <li><a href="#warp">Warp</a></li>
     <li><a href="#wezterm">wezterm</a></li>
     <li><a href="#windows-console">Windows Console</a></li>
     <li><a href="#windows-terminal">Windows Terminal</a></li>
@@ -235,13 +242,15 @@
 	<img class="unsupported-svg" aria-label="unsupported" src="/unsupported.svg"/>
 </p>
 <p>Open issue: <a href="https://github.com/alacritty/alacritty/issues/910">https://github.com/alacritty/alacritty/issues/910</a></p>
-<p>Related PR: <a href="https://github.com/alacritty/alacritty/pull/4763">https://github.com/alacritty/alacritty/pull/4763</a></p>
+<p>SIXEL support was <a href="https://github.com/alacritty/alacritty/pull/4763#issuecomment-2137836143">rejected</a> by the maintainers.</p>
+<p>There is a maintained fork with SIXEL support: <a href="https://github.com/ayosec/alacritty">https://github.com/ayosec/alacritty</a></p>
 <hr>
 <h1 id="black-box">Black Box<a href="#black-box" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
 <p class="status">
-	Status: Unsupported
-	<img class="unsupported-svg" aria-label="unsupported" src="/unsupported.svg"/>
+	Status: Needs Patch
+	<img class="alert-svg" aria-label="needs-patch" src="/alert.svg"/>
 </p>
+<p>Has an experimental &ldquo;Sixel Support&rdquo; switch since <a href="https://gitlab.gnome.org/raggesilver/blackbox/-/blob/main/CHANGELOG.md">version 0.13.0</a>, but the switch only works when VTE is built with SIXEL support.</p>
 <p>Relies on upstream VTE support: <a href="https://gitlab.gnome.org/GNOME/vte/-/issues/253">https://gitlab.gnome.org/GNOME/vte/-/issues/253</a></p>
 <hr>
 <h1 id="bobcat">Bobcat<a href="#bobcat" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
@@ -249,7 +258,7 @@
 	Status: Supported
 	<img class="supported-svg" aria-label="supported" src="/supported.svg"/>
 </p>
-<p><a href="https://github.com/ismail-yilmaz/Bobcat#Features">Natively supports sixel</a>.</p>
+<p><a href="https://github.com/ismail-yilmaz/Bobcat#Features">Natively supports SIXEL</a>.</p>
 <hr>
 <h1 id="conemu">ConEmu<a href="#conemu" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
 <p class="status">
@@ -263,7 +272,7 @@
 	Status: Supported
 	<img class="supported-svg" aria-label="supported" src="/supported.svg"/>
 </p>
-<p>Natively Supports Sixel. Sixel is available in any version.</p>
+<p>Natively supports SIXEL. SIXEL is available in any version.</p>
 <hr>
 <h1 id="ctx-terminal">ctx terminal<a href="#ctx-terminal" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
 <p class="status">
@@ -298,7 +307,7 @@
 	Status: Unsupported
 	<img class="unsupported-svg" aria-label="unsupported" src="/unsupported.svg"/>
 </p>
-<p>Open issue: <a href="https://github.com/elementary/terminal/issues/717">https://github.com/elementary/terminal/issues/717</a></p>
+<p>Issue closed as out of scope: <a href="https://github.com/elementary/terminal/issues/717">https://github.com/elementary/terminal/issues/717</a></p>
 <p>Which references VTE upstream: <a href="https://gitlab.gnome.org/GNOME/vte/-/issues/253">https://gitlab.gnome.org/GNOME/vte/-/issues/253</a></p>
 <hr>
 <h1 id="foot">foot<a href="#foot" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
@@ -308,19 +317,28 @@
 </p>
 <p>From version 1.2.0: <a href="https://codeberg.org/dnkl/foot/releases/tag/1.2.0">https://codeberg.org/dnkl/foot/releases/tag/1.2.0</a>.</p>
 <hr>
+<h1 id="ghostty">Ghostty<a href="#ghostty" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
+<p class="status">
+	Status: Unsupported
+	<img class="unsupported-svg" aria-label="unsupported" src="/unsupported.svg"/>
+</p>
+<p>See reasoning here: <a href="https://github.com/ghostty-org/ghostty/discussions/2496#discussioncomment-11353475">https://github.com/ghostty-org/ghostty/discussions/2496#discussioncomment-11353475</a></p>
+<p>Ghostty instead provides the <strong>Kitty graphics protocol</strong>: <a href="https://sw.kovidgoyal.net/kitty/graphics-protocol/">https://sw.kovidgoyal.net/kitty/graphics-protocol/</a></p>
+<hr>
 <h1 id="gnome-terminal">GNOME Terminal<a href="#gnome-terminal" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
 <p class="status">
 	Status: Unsupported
 	<img class="unsupported-svg" aria-label="unsupported" src="/unsupported.svg"/>
 </p>
 <p>Open issue: <a href="https://gitlab.gnome.org/GNOME/vte/-/issues/253">https://gitlab.gnome.org/GNOME/vte/-/issues/253</a></p>
+<p>GNOME Terminal has an <code>enable-sixel</code> profile setting since version 3.38, but it does nothing because VTE removes SIXEL support from <a href="https://gitlab.gnome.org/GNOME/vte/-/commit/3bd4f9a3">every stable release</a>.</p>
 <hr>
 <h1 id="guake">guake<a href="#guake" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
 <p class="status">
 	Status: Unsupported
 	<img class="unsupported-svg" aria-label="unsupported" src="/unsupported.svg"/>
 </p>
-<p>Open issue: <a href="https://github.com/Guake/guake/issues/1806">https://github.com/Guake/guake/issues/1806</a></p>
+<p>Related PR: <a href="https://github.com/Guake/guake/pull/2157">https://github.com/Guake/guake/pull/2157</a></p>
 <p>Which references VTE upstream: <a href="https://gitlab.gnome.org/GNOME/vte/-/issues/253">https://gitlab.gnome.org/GNOME/vte/-/issues/253</a></p>
 <hr>
 <h1 id="iterm2">iTerm2<a href="#iterm2" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
@@ -352,6 +370,13 @@
 </p>
 <p>Supported since September 2022, uses the SwiftTerm engine.</p>
 <hr>
+<h1 id="libtsm">libtsm<a href="#libtsm" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
+<p class="status">
+	Status: Unsupported
+	<img class="unsupported-svg" aria-label="unsupported" src="/unsupported.svg"/>
+</p>
+<p>Could not find any SIXEL references in <a href="https://github.com/kmscon/libtsm">libtsm</a> or its forks. DCS sequences are parsed but not rendered.</p>
+<hr>
 <h1 id="macterm">MacTerm<a href="#macterm" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
 <p class="status">
 	Status: Supported
@@ -378,21 +403,45 @@
 	Status: Unsupported
 	<img class="unsupported-svg" aria-label="unsupported" src="/unsupported.svg"/>
 </p>
-<p>Could not find any sixel references in release notes.</p>
+<p>Could not find any SIXEL references in release notes through version 26.4 (June 2026): <a href="https://mobaxterm.mobatek.net/download-home-edition.html">https://mobaxterm.mobatek.net/download-home-edition.html</a></p>
+<hr>
+<h1 id="mosh">mosh<a href="#mosh" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
+<p class="status">
+	Status: Unsupported
+	<img class="unsupported-svg" aria-label="unsupported" src="/unsupported.svg"/>
+</p>
+<p>Issue closed as not planned: <a href="https://github.com/mobile-shell/mosh/issues/1081">https://github.com/mobile-shell/mosh/issues/1081</a></p>
+<hr>
+<h1 id="neovim">Neovim<a href="#neovim" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
+<p class="status">
+	Status: Unsupported
+	<img class="unsupported-svg" aria-label="unsupported" src="/unsupported.svg"/>
+</p>
+<p>Open issue: <a href="https://github.com/neovim/neovim/issues/4500">https://github.com/neovim/neovim/issues/4500</a></p>
+<p>The <code>vim.ui.img</code> API added in version 0.12 implements only the Kitty graphics protocol. SIXEL is available through third-party plugins.</p>
+<hr>
+<h1 id="ptyxis">Ptyxis<a href="#ptyxis" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
+<p class="status">
+	Status: Unsupported
+	<img class="unsupported-svg" aria-label="unsupported" src="/unsupported.svg"/>
+</p>
+<p>Related issue: <a href="https://gitlab.gnome.org/chergert/ptyxis/-/issues/122">https://gitlab.gnome.org/chergert/ptyxis/-/issues/122</a></p>
+<p>Which references VTE upstream: <a href="https://gitlab.gnome.org/GNOME/vte/-/issues/253">https://gitlab.gnome.org/GNOME/vte/-/issues/253</a></p>
 <hr>
 <h1 id="putty">PuTTY<a href="#putty" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
 <p class="status">
 	Status: Unsupported
 	<img class="unsupported-svg" aria-label="unsupported" src="/unsupported.svg"/>
 </p>
-<p>Could not find any sixel references in source code, mailing list archives, or release notes.</p>
+<p>Could not find any SIXEL references in source code, mailing list archives, or the <a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/changes.html">change log</a> through version 0.85 (August 2026).</p>
 <hr>
 <h1 id="rio-terminal">Rio terminal<a href="#rio-terminal" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
 <p class="status">
-	Status: Unsupported
-	<img class="unsupported-svg" aria-label="unsupported" src="/unsupported.svg"/>
+	Status: Supported
+	<img class="supported-svg" aria-label="supported" src="/supported.svg"/>
 </p>
-<p>Open issue: <a href="https://github.com/raphamorim/rio/issues/38">https://github.com/raphamorim/rio/issues/38</a></p>
+<p>From version 0.1.12: <a href="https://rioterm.com/changelog#0112">https://rioterm.com/changelog#0112</a>.</p>
+<p>SIXEL was broken across the 0.4.x series and restored in <a href="https://github.com/raphamorim/rio/releases/tag/v0.4.12">version 0.4.12</a>.</p>
 <hr>
 <h1 id="rlogin">Rlogin<a href="#rlogin" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
 <p class="status">
@@ -406,7 +455,7 @@
 	Status: Supported
 	<img class="supported-svg" aria-label="supported" src="/supported.svg"/>
 </p>
-<p><a href="https://github.com/csdvrx/sixel-tmux">sixel-tmux</a> is a tmux fork that intercepts sixel sequences
+<p><a href="https://github.com/csdvrx/sixel-tmux">sixel-tmux</a> is a tmux fork that intercepts SIXEL sequences
 and renders them with the best technique available for the terminal.</p>
 <p><strong>Note</strong>: <a href="/#tmux">tmux</a> now has official support for SIXEL.</p>
 <hr>
@@ -418,6 +467,7 @@ and renders them with the best technique available for the terminal.</p>
 <p>Unofficial patch to add support: <a href="https://gist.github.com/saitoha/70e0fdf22e3e8f63ce937c7f7da71809">https://gist.github.com/saitoha/70e0fdf22e3e8f63ce937c7f7da71809</a></p>
 <p><a href="https://github.com/bakkeby/st-flexipatch/issues/30">st-flexipatch#30</a> will provide a simple way
 to use a current st version with SIXEL support.</p>
+<p><a href="https://github.com/veltza/st-sx">st-sx</a> is a maintained st fork with SIXEL support built in.</p>
 <hr>
 <h1 id="swiftterm">SwiftTerm<a href="#swiftterm" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
 <p class="status">
@@ -438,14 +488,14 @@ to use a current st version with SIXEL support.</p>
 	Status: Unsupported
 	<img class="unsupported-svg" aria-label="unsupported" src="/unsupported.svg"/>
 </p>
-<p>Mentioned as feature &ldquo;which may be supported in very far future&rdquo; in <a href="https://ttssh2.osdn.jp/manual/4/en/about/requests.html">https://ttssh2.osdn.jp/manual/4/en/about/requests.html</a>.</p>
+<p>Mentioned as feature &ldquo;which may be supported in very far future&rdquo; in <a href="https://teratermproject.github.io/manual/5/en/about/requests.html">https://teratermproject.github.io/manual/5/en/about/requests.html</a>.</p>
 <hr>
 <h1 id="terminalapp">Terminal.app<a href="#terminalapp" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
 <p class="status">
 	Status: Unsupported
 	<img class="unsupported-svg" aria-label="unsupported" src="/unsupported.svg"/>
 </p>
-<p>Could not find any sixel references in documentation.</p>
+<p>Could not find any SIXEL references in documentation.</p>
 <hr>
 <h1 id="terminology">Terminology<a href="#terminology" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
 <p class="status">
@@ -478,7 +528,7 @@ which allows one to render images.</p>
 	<img class="supported-svg" aria-label="supported" src="/supported.svg"/>
 </p>
 <p>From commit <a href="https://github.com/tmux/tmux/commit/dfbc6b1888c110cf0ade66f20188c57757ee1298">dfbc6b1</a> onwards.</p>
-<p>tmux officially supports sixel when compiled with <code>./configure --enable-sixel</code>.</p>
+<p>tmux officially supports SIXEL when compiled with <code>./configure --enable-sixel</code>.</p>
 <hr>
 <h1 id="toyterm">toyterm<a href="#toyterm" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
 <p class="status">
@@ -487,13 +537,21 @@ which allows one to render images.</p>
 </p>
 <p>From commit <a href="https://github.com/algon-320/toyterm/commit/692ee23c780945e76a1610cc45950df2e259c07a">692ee23</a> onwards.</p>
 <hr>
+<h1 id="ttyd">ttyd<a href="#ttyd" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
+<p class="status">
+	Status: Supported
+	<img class="supported-svg" aria-label="supported" src="/supported.svg"/>
+</p>
+<p>From version 1.7.2: <a href="https://github.com/tsl0922/ttyd/releases/tag/1.7.2">https://github.com/tsl0922/ttyd/releases/tag/1.7.2</a>.</p>
+<p>Since <a href="https://github.com/tsl0922/ttyd/releases/tag/1.7.3">version 1.7.3</a> it must be enabled with <code>-t enableSixel=true</code>.</p>
+<hr>
 <h1 id="urxvt">URxvt<a href="#urxvt" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
 <p class="status">
 	Status: Unsupported
 	<img class="unsupported-svg" aria-label="unsupported" src="/unsupported.svg"/>
 </p>
-<p>There is an old fork (from 2018) that supports sixel: <a href="https://github.com/saitoha/rxvt-unicode-sixel">https://github.com/saitoha/rxvt-unicode-sixel</a></p>
-<p>Exoterm is a more up-to-date fork with sixel support, among other things: <a href="https://github.com/tomas/exoterm">https://github.com/tomas/exoterm</a></p>
+<p>There is an old fork (from 2018) that supports SIXEL: <a href="https://github.com/saitoha/rxvt-unicode-sixel">https://github.com/saitoha/rxvt-unicode-sixel</a></p>
+<p>Exoterm is a more up-to-date fork with SIXEL support, among other things: <a href="https://github.com/tomas/exoterm">https://github.com/tomas/exoterm</a></p>
 <hr>
 <h1 id="u">U++<a href="#u" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
 <p class="status">
@@ -511,6 +569,14 @@ which allows one to render images.</p>
 <p>Uses xterm.js with xterm-addon-image, related PR: <a href="https://github.com/microsoft/vscode/pull/182442">https://github.com/microsoft/vscode/pull/182442</a></p>
 <p>From release 1.80: <a href="https://code.visualstudio.com/updates/v1_80#_image-support">https://code.visualstudio.com/updates/v1_80#_image-support</a></p>
 <hr>
+<h1 id="warp">Warp<a href="#warp" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
+<p class="status">
+	Status: Unsupported
+	<img class="unsupported-svg" aria-label="unsupported" src="/unsupported.svg"/>
+</p>
+<p>Issue closed as not planned: <a href="https://github.com/warpdotdev/Warp/issues/4282">https://github.com/warpdotdev/Warp/issues/4282</a></p>
+<p>Warp provides the iTerm2 and Kitty graphics protocols instead.</p>
+<hr>
 <h1 id="wezterm">wezterm<a href="#wezterm" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
 <p class="status">
 	Status: Supported
@@ -523,21 +589,23 @@ which allows one to render images.</p>
 	Status: Unsupported
 	<img class="unsupported-svg" aria-label="unsupported" src="/unsupported.svg"/>
 </p>
-<p>Could not find any sixel references in source code.</p>
+<p>SIXEL support was <a href="https://github.com/microsoft/terminal/pull/17421">merged into conhost</a>, but it only ships in the OpenConsole bundled with Windows Terminal.</p>
+<p>The conhost.exe built into Windows has it only in <a href="https://blogs.windows.com/windows-insider/2026/03/30/announcing-windows-11-insider-preview-build-for-canary-channel-29558-1000/">Insider Canary builds</a> so far.</p>
 <hr>
 <h1 id="windows-terminal">Windows Terminal<a href="#windows-terminal" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
-<p class="status">
-	Status: Unsupported
-	<img class="unsupported-svg" aria-label="unsupported" src="/unsupported.svg"/>
-</p>
-<p>Open issue: <a href="https://github.com/microsoft/terminal/issues/448">https://github.com/microsoft/terminal/issues/448</a>.</p>
-<hr>
-<h1 id="xfce-terminal">xfce-terminal<a href="#xfce-terminal" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
 <p class="status">
 	Status: Supported
 	<img class="supported-svg" aria-label="supported" src="/supported.svg"/>
 </p>
-<p>From commit <a href="https://gitlab.xfce.org/apps/xfce4-terminal/-/commit/493a7a54b437df9419847b29fe94eae671816c09">493a7a5</a> onwards.</p>
+<p>From version 1.22.10352.0: <a href="https://github.com/microsoft/terminal/releases/tag/v1.22.10352.0">https://github.com/microsoft/terminal/releases/tag/v1.22.10352.0</a>.</p>
+<hr>
+<h1 id="xfce-terminal">xfce-terminal<a href="#xfce-terminal" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
+<p class="status">
+	Status: Needs Patch
+	<img class="alert-svg" aria-label="needs-patch" src="/alert.svg"/>
+</p>
+<p>Added a SIXEL option in <a href="https://gitlab.xfce.org/apps/xfce4-terminal/-/commit/493a7a54b437df9419847b29fe94eae671816c09">version 1.1.0</a>, but the option only appears when VTE is built with SIXEL support.</p>
+<p>Relies on upstream VTE support: <a href="https://gitlab.gnome.org/GNOME/vte/-/issues/253">https://gitlab.gnome.org/GNOME/vte/-/issues/253</a></p>
 <hr>
 <h1 id="xterm">xterm<a href="#xterm" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
 <p class="status">
@@ -591,7 +659,7 @@ which allows one to render images.</p>
   <div class="footer__inner">
     
       <div class="copyright">
-        <span>© 2024 Powered by <a href="http://gohugo.io">Hugo</a></span>
+        <span>© 2026 Powered by <a href="http://gohugo.io">Hugo</a></span>
     
         <span>:: Theme made by <a href="https://twitter.com/panr">panr</a></span>
       </div>
