@@ -9,8 +9,8 @@ run `git submodule update --init` after cloning.
 
 Changes to content should be made in `content/_index.md`.
 
-Changes can be tested using `hugo server`.
+Changes can be tested using `hugo server --renderToMemory`.
+If you use Nix, `nix develop` provides the right version of Hugo.
 
-The build artifact is located in the `docs` folder.
-After making any changes, please run `hugo -D`, which
-will update the `docs` folder.
+The site is built and deployed by GitHub Actions on every push
+to main, so there is no generated HTML to commit.

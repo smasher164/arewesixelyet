@@ -2,7 +2,6 @@ baseURL = '/'
 locale = 'en-us'
 title = 'Are We Sixel Yet?'
 theme = "terminal"
-publishdir = "docs"
 [params]
   Toc = true
   centerTheme = true
