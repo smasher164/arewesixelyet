@@ -351,6 +351,14 @@ From release 1.80: https://code.visualstudio.com/updates/v1_80#_image-support
 
 ---
 
+# Warp
+
+{{< unsupported >}}
+
+Issue: https://github.com/warpdotdev/Warp/issues/26
+
+---
+
 # wezterm
 
 {{< supported >}}
