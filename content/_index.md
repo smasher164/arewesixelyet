@@ -310,6 +310,14 @@ Could not find any SIXEL references in documentation.
 
 ---
 
+# TERMinator
+
+{{< supported >}}
+
+Natively supports SIXEL. SIXEL is available in any version.
+
+---
+
 # Terminology
 
 {{< unsupported >}}
