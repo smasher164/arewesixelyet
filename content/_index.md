@@ -439,6 +439,14 @@ From version 1.22.10352.0: https://github.com/microsoft/terminal/releases/tag/v1
 
 ---
 
+# wrxvt
+
+{{< supported >}}
+
+Fork of URxvt. [Supports SIXEL](https://github.com/hydrastro/wrxvt/#what-it-adds).
+
+---
+
 # xfce-terminal
 
 {{< alert >}}
