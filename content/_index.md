@@ -176,7 +176,7 @@ Could not find any SIXEL references in [libtsm](https://github.com/kmscon/libtsm
 
 Supported since version 20171210: https://www.macterm.net/updates/changelog-2017.html.
 
---- 
+---
 # mintty
 
 {{< supported >}}
@@ -319,15 +319,11 @@ which allows one to render images.
 
 ---
 
-# termux
+# Termux
 
 {{< unsupported >}}
 
-Open issue: https://github.com/termux/termux-app/issues/142
-
-Related PR: https://github.com/termux/termux-app/pull/2973
-
-There is a fork of termux which supports it: https://github.com/KitsunedFox/termux-monet
+SIXEL support was [merged](https://github.com/termux/termux-app/pull/2973), but it is not in a release yet. Debug builds from the `master` branch include it.
 
 ---
 
