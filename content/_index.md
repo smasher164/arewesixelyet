@@ -395,6 +395,14 @@ From release 1.80: https://code.visualstudio.com/updates/v1_80#_image-support
 
 ---
 
+# vnm_terminal
+
+{{< supported >}}
+
+From version 1.6.1: https://github.com/Varinomics/vnm_terminal/releases/tag/v1.6.1.
+
+---
+
 # Warp
 
 {{< unsupported >}}
